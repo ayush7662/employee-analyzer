@@ -43,8 +43,8 @@ employee-analyzer/
 
  ## Run code
 
- mvn clean install
- mvn exec:java
+ # mvn clean install
+ # mvn exec:java
 
 
 ## output
