@@ -61,15 +61,15 @@ public class EmployeeAnalyzer {
     public void checkReportingDepth() {
     System.out.println("\nEmployees with TOO LONG reporting lines:");
 
-    int MAX_DEPTH = 4;  // Allowed hierarchy levels
+    int MAX_DEPTH = 4;  
 
     for (Employee e : map.values()) {
-        int depth = 1;  // Start at 1 to include the employee itself
+        int depth = 1;  
         Integer managerId = e.getManagerId();
 
         while (managerId != null) {
             Employee manager = map.get(managerId);
-            if (manager == null) break;  // Safety check
+            if (manager == null) break;  
 
             depth++;
             managerId = manager.getManagerId();
