@@ -20,7 +20,7 @@ public class EmployeeAnalyzer {
         }
     }
 
-    // ------------ Salary Rule 20% - 50% ------------
+    // ------ Salary Rule 20% - 50% -----
     public void checkManagerSalaryRules() {
         System.out.println("Managers earning LESS than allowed:");
 
